@@ -1,5 +1,4 @@
 process.stdin.setRawMode(true);
-process.stdin.resume();
 process.stdin.setEncoding('utf-8');
 
 process.stdin.on('data', (key => {
